@@ -1,0 +1,55 @@
+body
+        {
+            background-color:#eee;
+            padding-bottom:20px;
+        }
+        .nav.navbar-nav>li
+        {
+            text-align:center;
+        }
+        .img-container
+        {
+            margin-bottom:20px;
+        }
+        #beef-image, #sushi-image, #chicken-image
+        {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width:100%;
+            height:300px;
+        }
+        #chicken-image
+        {
+            background-image:url('https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/200912-xl-moroccan-chicken.jpg?itok=lWbkkJz2');
+        }
+        #beef-image
+        {
+            background-image:url('https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/recipe_photos/30234_slow_roasted_prime_rib.jpg');
+        }
+        #sushi-image
+        {
+            background-image: url('https://www.lapleta.com/files-sbbasic/sr_lapleta_com/rafael-hotels-by-la-pleta-hotel-sushi-3.jpg');
+        }
+        .img-header
+        {
+            text-align:center;
+            background-color:white;
+            padding:10px;
+            opacity:0.5;
+        }
+        .img-header>a
+        {
+            text-decoration:none;
+            color:red;
+            font-weight:bold;
+        }
+        .home-title
+        {
+            margin-bottom:20px;
+        }
+        .navbar
+        {
+            border-radius:0px;
+        }
