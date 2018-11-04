@@ -1,4 +1,5 @@
 (function (window) {
+  
   var speakWord = "Hello";  
 
   var helloSpeaker={};
@@ -7,7 +8,7 @@
   }
   //Expose helloSpeaker to global scope
   window.helloSpeaker=helloSpeaker;
-})(window)
+})(window);
 
 
 
